@@ -1,0 +1,601 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+ height: 100%
+}
+body {
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(22, 97, 175);
+  line-height: 50px;  
+}
+#header table{
+  width: 10%;
+  height: 100%;
+  margin-left: 80%;
+}
+#header a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  width: 80px;
+  height: 50px;
+  transition: background 1s;
+}
+#header a:hover{
+  background-color: white;
+  color: black;
+}
+#form-container{
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  height: 40%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+#form-control{
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+#form-control table{
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+.input-text{
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+.input-submit{
+  width: 200px;
+  height: 30px;
+}
+
+
+#about{
+  width: 100%;
+    height: 700px;
+  background: #1abc9c;  
+}
+
+#about p{
+  padding-top: 20px;
+  color: #FFF;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+}
+.aboutheader{
+  text-align: center;
+  padding-top: 50px;
+}
+.aboutheader a{
+  color: #FFF;
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.aboutheader h1{
+  padding-bottom: 10px; 
+text-align: center;
+color: #fff;
+}
+.aboutheader h2{
+  border-bottom: 5px solid  #fff;
+text-decoration: none; 
+width: 100px;
+margin:auto;
+text-align: center;
+}
+
+
+.aboutcontent{
+  width: 80%;
+  margin: auto;
+padding-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.aboutcontent img{
+   width: 150px; 
+   height: 150px; 
+   margin: auto;
+   border-radius: 50%;
+}
+.aboutcontent h1{
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+  color: #fff;
+
+}
+
+#mapheader{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+#mapheader a{
+  color: rgba(26,26,26,.9);
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 10px;
+}
+#mapheader h1{
+  padding-bottom: 10px; 
+text-align: center;
+color: rgba(26,26,26,.9);
+}
+#mapheader h2{
+  border-bottom: 5px solid  rgba(26,26,26,.9);
+text-decoration: none; 
+width: 100px;
+margin:auto;
+text-align: center;
+}
+
+#map{
+  width: 90%;
+    height: 100%;
+  background:#fff; 
+  margin:auto;
+}
+
+#map p{
+  padding-top: 20px;
+  color: #FFF;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+  width:50%; height:600px;
+}
+#map-canvas{
+  width: 100%; 
+  height: 600px;
+}
+.form-map{
+  margin:auto; width: 20%;
+}
+#panel{
+  float:right; 
+  width:48%; 
+  height:600px; 
+  margin-bottom: 100px;
+}
+
+.mapcontent{
+  width: 99%;
+  margin: auto;
+margin-top: 40px;
+background: #fff;
+  margin-bottom: 20px;
+}
+.mapcontents img{
+   width: 100%; 
+  height: 100%;
+  max-width: 960px; 
+}
+#mapbutton{
+  width: 100%;
+    height: 150px;
+  background:#fff;
+  margin-top: 100px;  
+}
+#detailpuskesmas{
+  margin: auto;
+}
+
+.lihatdata {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.lihatdata .btn-lg{
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-size: 22px;
+  background-image: none;
+  background-color: #ffffff;
+  border-color: #337ab7;
+  color: #337ab7;
+}
+
+.lihatdata .btn-lg:hover{
+  border-radius: 30px;
+  background-color: #337ab7;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+
+/*footer */
+footer{
+  width: 100%;
+    height: 240px;
+  background: #26262a;
+  
+}
+.footerheader{
+  text-align: center;
+  padding-top: 50px;
+}
+.footerheader a{
+  color: #FFF;
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.kontak{
+  width: 20%;
+  margin: auto;
+padding-top: 20px;
+  margin-bottom: 10px;
+
+}
+.kontak img{
+  filter: brightness(400%);
+}
+footer p{
+  padding-top: 20px;
+  color: #FFF;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.copyrights p{
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.tablepuskesmas {
+  margin: auto;
+  padding-left: 40px;
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #f2f5f7;
+    margin-top: 40px;
+}
+ 
+.tablepuskesmas tr th{
+    background: #26262a;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.tablepuskesmas, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.tablepuskesmas tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.tablepuskesmas tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* untuk form
+#pageregister{
+margin-left: 40px;
+margin-top: 40px; 
+margin-bottom: 50px;
+}
+#pageregister h1{
+  color:#000;
+  font-weight: bold;
+  text-align: center;
+
+}
+#pageregister h3{
+  border-bottom: 3px solid  #00587b;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#pageregister input[type=text]{
+    width: 50%;
+    padding: 12px;
+    border: 5px solid #eaeae1;
+    border-radius: 4px;
+    outline: #0040ff
+
+}
+#pageregister input[type=text]:focus{
+    border: 3px solid #00587b;
+
+}
+#pageregister input[type=password]{
+    width: 50%;
+    padding: 12px;
+    border: 5px solid #eaeae1;
+    border-radius: 4px;
+    outline: #0040ff
+
+}
+#pageregister input[type=password]:focus{
+    border: 3px solid #00587b;
+
+}
+#pageregister input[type=submit]{
+  width: 50%;
+    padding: 12px;
+    border: 5px solid #47c873;
+    border-radius: 4px;
+background-color: #47c873;
+color: #fff;
+font-size: 17px;
+}
+#pageregister input[type=submit]:hover{
+  background-color:  #00802b;
+   border: 5px solid #00802b;
+}
+
+#pageregister p{
+  margin-top: 20px;
+}
+
+
+#jadwal{
+  width: 100%;
+  height: 100%;
+  background-color:  #ebebeb;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}*/
+
+/* button up */
+
+#atas {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#FF4000;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#atas:hover {
+  background-color: #555;
+}
+
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+
+/*code header */
+.container-fluid.main{
+  position: relative; /* To make the navbar positions relative to this container */
+  padding: 0;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: transparent; /* Make the menu become transparent */
+  border-radius: 0px;
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+}
+
+.navbar-default .navbar-brand {
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 13px;
+
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: bold;
+
+
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 13px;
+   font-family: Verdana;
+}
+ 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+ {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+@media (max-width:991px) {
+  .carousel .background {
+    background-size: cover; /* To make the background image looks good */
+  }
+}
+
+.carousel .background.a {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/unsplash1.jpg");
+   filter: brightness(50%);
+}
+
+.carousel .background.b {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/unsplash2.jpg");
+filter: brightness(50%);
+}
+
+.carousel .background.c {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/unsplash3.jpg");
+filter: brightness(50%);
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 0.5s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+/* CSS Hack to trigger GPU for smooth transition */
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+  position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px; /* The distance between the div with the top of document */
+  left: 0px; /* Make the div full width */
+  right: 0px; /* Make the div full width */
+}
+
+.title {
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: Verdana;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-size: 22px;
+  background-image: none;
+  background-color: #FF4000;
+  border-color: #FF4000;
+  color: #ffffff;
+}
+
+
